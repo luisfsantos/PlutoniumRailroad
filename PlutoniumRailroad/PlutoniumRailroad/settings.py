@@ -25,7 +25,8 @@ SECRET_KEY = 'n13qjpng1q7ns!q4-8dfj$v#b*@&#^(1c58z-*p*mgxqx40y)c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+]
 
 
 # Application definition
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'mwebhook',
 ]
 
 MIDDLEWARE = [
