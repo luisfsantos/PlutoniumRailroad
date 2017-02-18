@@ -31,6 +31,6 @@ class Builder(object):
     def send_message(self, user_id, message):
         data = dict()
         data[self.MESSAGE] = {
-            self.TEXT: message
+            self.TEXT: str(message)
         }
         self.send(data, user_id)
